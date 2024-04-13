@@ -2,7 +2,7 @@ import axios from "axios";
 
 const API_URL =
   process.env.NODE_ENV === "production"
-    ? "https://yourHosting api/api/account/"
+    ? "https://online-banking-app-wud2.onrender.com/"
     : "http://localhost:5000/api/account/";
 
 //Get Account
