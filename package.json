@@ -4,7 +4,7 @@
   "description": "",
   "main": "Backend/server.js",
   "scripts": {
-    "both": "concurrently \"npm:dev\" \"npm:dev2\"",
+    "both": "concurrently \"npm:start\" \"npm:dev2\"",
     "start": "node Backend/server.js",
     "dev": "nodemon Backend/server.js",
     "dev2": "cd Frontend && npm run dev",
